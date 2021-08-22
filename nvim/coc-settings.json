@@ -1,0 +1,20 @@
+{
+    "diagnostic": {
+        "checkCurrentLine": true,
+        "errorSign": "☢",
+        "errorSign": "😧",
+        "warningSign": "⚠",
+        "infoSign": "🛈",
+        "hintSign": "🖤"
+    },
+    "coc.preferences.echodocSupport": true,
+    "clangd.path": "/home/exr0n/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+    "languageserver": {
+        "aloh": {
+            "command": "node",
+            "args": ["--max-old-space-size=8192", "/home/exr0n/projects/aloh/aloh-langserv/index.mjs", "--stdio"],
+            "trace.server": "verbose",
+            "filetypes": ["aloh", "cucumber"]
+        }
+    }
+}

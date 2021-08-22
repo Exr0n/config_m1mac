@@ -1,0 +1,24 @@
+~/arm_homebrew/bin/yabai -m rule --add app="^System Preferences$"  manage=off
+#~/arm_homebrew/bin/yabai -m rule --add app="^Toggl Track$"         manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Discord$"             manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Messages$"            manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Spark$"               manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Creative Cloud$"      manage=off
+#~/arm_homebrew/bin/yabai -m rule --add app="^Condution$"           manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Finder$"              manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^FaceTime$"            manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Numi$"                manage=off
+
+~/arm_homebrew/bin/yabai -m config window_opacity                  on
+~/arm_homebrew/bin/yabai -m config active_window_opacity           1.0
+~/arm_homebrew/bin/yabai -m config normal_window_opacity           0.8
+~/arm_homebrew/bin/yabai -m config window_border                   off
+~/arm_homebrew/bin/yabai -m config split_ratio                     0.5
+~/arm_homebrew/bin/yabai -m config auto_balance                    on
+
+~/arm_homebrew/bin/yabai -m config layout                          bsp
+~/arm_homebrew/bin/yabai -m config top_padding                     40
+~/arm_homebrew/bin/yabai -m config bottom_padding                  15
+~/arm_homebrew/bin/yabai -m config left_padding                    15
+~/arm_homebrew/bin/yabai -m config right_padding                   15
+~/arm_homebrew/bin/yabai -m config window_gap                      15
