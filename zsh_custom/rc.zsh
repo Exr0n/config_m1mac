@@ -61,7 +61,7 @@ function gutil {
 alias gg='gutil'
 alias GG='gutil -A'
 #    python stuff
-alias py='python'
+alias py='python3'
 alias pip='py -m pip'
 alias pym='py -m'
 alias venv='pym venv .venv && echo .venv/ >> .gitignore && source .venv/bin/activate'

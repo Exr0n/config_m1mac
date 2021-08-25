@@ -40,6 +40,11 @@ brew install skhd neovim pass coreutils zoxide moreutils lsd rm-improved ag
 - discord
 - condution
 - ideaflow
+- alfred
+- karabiner
+- amphetamine
+- toggl
+- syncthing
 
 # settings
 ## set option to command and command to option 
