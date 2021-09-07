@@ -19,8 +19,9 @@
 ~/arm_homebrew/bin/yabai -m rule --add app="^Slack$"                manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Telegram$"             manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Spark$"                manage=off
-~/arm_homebrew/bin/yabai -m rule --add app="^Mailspring$"                manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Mailspring$"           manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Creative Cloud$"       manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Mem$"                  manage=off
 #~/arm_homebrew/bin/yabai -m rule --add app="^Condution$"           manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Finder$"               manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^FaceTime$"             manage=off
