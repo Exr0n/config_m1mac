@@ -35,6 +35,8 @@ nmap gN <Plug>(coc-diagnostic-prev)
 nmap ge <Plug>(coc-diagnostic-next-error)
 nmap gE <Plug>(coc-diagnostic-prev-error)
 
+inoremap <C-l> <Right>
+
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 function! s:show_documentation()

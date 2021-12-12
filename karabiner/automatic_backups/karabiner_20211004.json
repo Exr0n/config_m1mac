@@ -229,16 +229,6 @@
                             "key_code": "left_command"
                         }
                     ]
-                },
-                {
-                    "from": {
-                        "key_code": "return_or_enter"
-                    },
-                    "to": [
-                        {
-                            "key_code": "vk_none"
-                        }
-                    ]
                 }
             ],
             "virtual_hid_keyboard": {
