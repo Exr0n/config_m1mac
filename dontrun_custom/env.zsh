@@ -42,6 +42,10 @@ export PATH="$ZSH_CUSTOM/../dontrun_custom/Alacritty.app/Contents/MacOS:$PATH"
 # snapcraft
 export PATH="/var/lib/snapd/snap/bin:$PATH"
 
+# standard ml for intersession 2022
+export PATH=$PATH:~/.bin:/usr/local/smlnj/bin
+alias sml='rlwrap /usr/local/smlnj/bin/sml $@'
+
 # compilation include paths
 export CPLUS_INCLUDE_PATH="$XDG_CONFIG_HOME/include/cpp:$C_INCLUDE_PATH"
 
