@@ -32,6 +32,23 @@
   (setq org-preview-html-refresh-configuration "timer")
   )
 
+;; org download to paste in screenshots
+
+(use-package org-download
+  :after org
+  :defer nil
+  :custom
+  (org-download-method 'directory)
+  (org-download-image-dir "images")
+  (org-download-heading-lvl nil)
+  (org-download-timestamp "%Y%m%d-%H%M%S_")
+  (org-image-actual-width 300)
+  (org-download-screenshot-method "/usr/sbin/screencapture %s")
+  :bind
+  ("›" . org-download-screenshot)
+  :config
+  (require 'org-download))
+
 ;; calculations
 (use-package math-at-point
              :load-path "math-at-point"
