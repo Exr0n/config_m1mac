@@ -1,5 +1,6 @@
 memos.json
 extensions/node_modules/
+extensions/*/
 extensions/coc-python-data/
 list*history.json
 mru/
