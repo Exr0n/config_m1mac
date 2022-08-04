@@ -73,6 +73,7 @@ xmap <Leader>y :w !pbcopy<CR><CR>
 nmap <Leader>y :w !pbcopy<CR><CR>
 
 inoremap <C-f> <Right>
+inoremap <C-b> <Left>
 
 " easymotion
 nmap x <Plug>(easymotion-overwin-f2)

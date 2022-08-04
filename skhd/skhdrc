@@ -5,16 +5,19 @@
 # keyboard test
 #ctrl - j : ok
 
-# TODO: make these work with tmux and vim splits, all using ctrl-hjkl
 # focus window
-alt - h              : ~/arm_homebrew/bin/yabai -m window   --focus west #|| yabai -m display --focus 1
-alt - j              : ~/arm_homebrew/bin/yabai -m window   --focus south#|| yabai -m display --focus 3
-alt - k              : ~/arm_homebrew/bin/yabai -m window   --focus north#|| yabai -m display --focus 1
-alt - l              : ~/arm_homebrew/bin/yabai -m window   --focus east #|| yabai -m display --focus 2
+alt - h              : ~/arm_homebrew/bin/yabai -m window   --focus west    #|| yabai -m display --focus 1
+alt - j              : ~/arm_homebrew/bin/yabai -m window   --focus south   #|| yabai -m display --focus 3
+alt - k              : ~/arm_homebrew/bin/yabai -m window   --focus north   #|| yabai -m display --focus 1
+alt - l              : ~/arm_homebrew/bin/yabai -m window   --focus east    #|| yabai -m display --focus 2
 #ctrl - h                    : yabai -m window   --focus west || yabai -m display --focus 1
 #ctrl - j                    : yabai -m window   --focus south|| yabai -m display --focus 3
 #ctrl - k                    : yabai -m window   --focus north|| yabai -m display --focus 1
 #ctrl - l                    : yabai -m window   --focus east || yabai -m display --focus 2
+
+# focus monitors
+alt - s             : ~/arm_homebrew/bin/yabai -m display --focus 1
+alt - n             : ~/arm_homebrew/bin/yabai -m display --focus 2
 
 # focus space (replaced by system preferences)
 #   This looks crazy (and it probably is) but its a hierarchy ok?
@@ -99,8 +102,11 @@ alt - u                     : ~/arm_homebrew/bin/yabai -m window --focus recent
 #ctrl + lcmd - s             : open -a Spark
 #ctrl + lcmd - o             : open -n -a emacs --args ~/Desktop/materials/capsule/org/inbox.org
 #alt + ctrl - n              : open -a emacs
-alt + ctrl - d              : open -na  'Brave Browser' --incognito
+#alt + ctrl - d              : open -na  'Brave Browser' --incognito
+alt + ctrl - d              : open -na  'Google Chrome'
+#alt + ctrl - h              : open -na  'Google Chrome'
+#alt + ctrl - h              : open -na  'Safari' --args --new-window
 alt + ctrl - h              : open -na  'Brave Browser'
-alt + ctrl - n              : open -a   emacsclient -nc -a="" 
+#alt + ctrl - n              : open -a   emacsclient -nc -a="" 
 alt + ctrl - t              : open -na  alacritty
 

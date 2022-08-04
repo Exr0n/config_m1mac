@@ -5,6 +5,10 @@ source $VIMCONFIG/defaults.vim
 
 call plug#begin($VIMCONFIG.'/plugged')
 
+" Languages
+Plug 'JuliaEditorSupport/julia-vim'
+Plug 'cespare/vim-toml'		" .toml syntax highlighting
+
 " Editing
 Plug 'preservim/nerdcommenter'
 Plug 'preservim/nerdtree'
@@ -43,13 +47,24 @@ Plug 'wadackel/vim-dogrun'
 "Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
+
+
+
+
+Plug 'jbyuki/instant.nvim'
+
+
+
+
+
+
+
 "   HUD
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 "Plug 'glepnir/galaxyline.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'onsails/lspkind-nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'cespare/vim-toml'		" .toml syntax highlighting
 Plug 'luochen1990/rainbow'
 "Plug 'jaxbot/semantic-highlight.vim'
 let g:gitgutter_map_keys = 0
