@@ -16,7 +16,7 @@ alt - l              : ~/arm_homebrew/bin/yabai -m window   --focus east    #|| 
 #ctrl - l                    : yabai -m window   --focus east || yabai -m display --focus 2
 
 # focus monitors
-alt - s             : ~/arm_homebrew/bin/yabai -m display --focus 1
+alt - t             : ~/arm_homebrew/bin/yabai -m display --focus 1
 alt - n             : ~/arm_homebrew/bin/yabai -m display --focus 2
 
 # focus space (replaced by system preferences)
