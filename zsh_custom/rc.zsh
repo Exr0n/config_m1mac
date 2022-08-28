@@ -60,6 +60,8 @@ function gutil {
 }
 alias gg='gutil'
 alias GG='gutil -A'
+#    julia
+alias jl="julia -O0 --compile=min --startup=no" # run julia w/o optimizations for fast dev time, https://www.reddit.com/r/Julia/comments/lmznx7/comment/gnyyv7u/?utm_source=share&utm_medium=web2x&context=3
 #    python stuff
 alias py='python3'
 alias pip='py -m pip'
