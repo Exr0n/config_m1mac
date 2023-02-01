@@ -6,7 +6,8 @@
 ~/arm_homebrew/bin/yabai -m config auto_balance                     on
 
 ~/arm_homebrew/bin/yabai -m config layout                           bsp
-~/arm_homebrew/bin/yabai -m config top_padding                      40
+#~/arm_homebrew/bin/yabai -m config top_padding                      40 # for menu bar
+~/arm_homebrew/bin/yabai -m config top_padding                      15  # no  menu bar
 ~/arm_homebrew/bin/yabai -m config bottom_padding                   15
 ~/arm_homebrew/bin/yabai -m config left_padding                     15
 ~/arm_homebrew/bin/yabai -m config right_padding                    15
