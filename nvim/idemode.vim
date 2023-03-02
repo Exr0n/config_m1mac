@@ -27,6 +27,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag' " autopairs for html tags
 
 Plug 'tpope/vim-fugitive'
+Plug 'APZelos/blamer.nvim'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 Plug 'junegunn/fzf.vim'
@@ -51,7 +52,7 @@ Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
 
 
-Plug 'jbyuki/instant.nvim'
+Plug 'jbyuki/instant.nvim'  "claims to be collaborative editing
 
 
 

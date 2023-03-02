@@ -16,6 +16,7 @@
 ~/arm_homebrew/bin/yabai -m rule --add app="^System Preferences$"   manage=off
 #~/arm_homebrew/bin/yabai -m rule --add app="^Toggl Track$"         manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Discord$"              manage=off
+~/arm_homebrew/bin/yabai -m rule --add app="^Reminders$"            manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Messages$"             manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Slack$"                manage=off
 ~/arm_homebrew/bin/yabai -m rule --add app="^Telegram$"             manage=off

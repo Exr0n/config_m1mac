@@ -4,3 +4,6 @@
 [submodule "emacs/math-at-point"]
 	path = emacs/math-at-point
 	url = git@github.com:shankar2k/math-at-point.git
+[submodule "nvim-quartokickstarter/nvim"]
+	path = nvim-quartokickstarter/nvim
+	url = git@github.com:jmbuhr/quarto-nvim-kickstarter.git
