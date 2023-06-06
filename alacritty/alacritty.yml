@@ -18,7 +18,6 @@ font:
         #family: Iosevka Term SS12 Light
         family: Iosevka Nerd Font Mono
         #family: 'RobotoMono'
-    use_thin_strokes: true
 colors:
     cursor:
         text: '#000000'

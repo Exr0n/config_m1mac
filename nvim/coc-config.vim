@@ -18,8 +18,7 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 "   Coc Snippets
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
-inoremap <silent><expr> <C-o> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+inoremap <silent><expr> <C-o> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<C-o>"
 imap <C-l> <Plug>(coc-snippets-expand-jump)
 let g:coc_snippet_next = 'jn'
 let g:coc_snippet_prev = 'jh'

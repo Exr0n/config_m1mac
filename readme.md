@@ -56,3 +56,7 @@ brew install skhd neovim pass coreutils zoxide moreutils lsd rm-improved ag
 - enable displays have seprate spaces:
 ## reduce animations
 - enable reduce motion in accessibility
+
+
+# other random stuff
+- https://github.com/magicien/GLTFQuickLook
